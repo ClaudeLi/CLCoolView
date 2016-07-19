@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CLImageBrowserCell">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="113"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="125" height="113"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="2.5" translatesAutoresizingMaskIntoConstraints="NO" id="XCg-cA-BOW">
+                        <rect key="frame" x="0.0" y="0.0" width="125" height="113"/>
+                    </scrollView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="XCg-cA-BOW" secondAttribute="trailing" id="H93-7S-y0I"/>
+                <constraint firstAttribute="bottom" secondItem="XCg-cA-BOW" secondAttribute="bottom" id="XAm-D7-ycX"/>
+                <constraint firstItem="XCg-cA-BOW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fPr-21-4Co"/>
+                <constraint firstItem="XCg-cA-BOW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mVE-os-O8U"/>
+            </constraints>
+            <size key="customSize" width="125" height="113"/>
+            <connections>
+                <outlet property="scrollView" destination="XCg-cA-BOW" id="431-Zf-pW0"/>
+            </connections>
+            <point key="canvasLocation" x="317.5" y="354.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
