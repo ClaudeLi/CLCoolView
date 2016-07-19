@@ -1,6 +1,8 @@
 # CLCoolView
 支持图片拖动排序，图片浏览器&lt;类似微信等 带转场动画>
 
+<img src="https://raw.githubusercontent.com/ClaudeLi/CLCoolView/master/Untitled.gif" width="320"><br/>
+
 1.图片拖动排序 collectionView的移动->"CLImageTypesetView"
 
         // 初始化调用- initWithFrame:CGRectZero
